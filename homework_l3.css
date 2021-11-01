@@ -1,0 +1,30 @@
+.big-block {  
+    background-color: green;
+    width: 350px;
+    height: 220px;
+    border: 2px dashed red;
+    margin-bottom: 30px;
+    padding: 15px 10px 20px 10px;
+}
+
+.pink-box {
+    background-color: #eb9891;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    z-index: 1;
+}
+.blue-box {
+    background-color: #7484e0;
+    width: 150px;
+    height: 150px;
+    margin-top: -65px;
+    margin-left: 85px;
+}
+.green-box {
+    background-color: #65e490;
+    width: 150px;
+    height: 150px;
+    margin-top: -65px;
+    margin-left: 170px;
+}

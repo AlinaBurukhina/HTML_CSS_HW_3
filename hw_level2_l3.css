@@ -1,0 +1,114 @@
+/*NEWS PORTAL STYLES START */
+.header {
+    background-color: #bbc900;
+    font-size: 45px;
+    text-align:center;
+    color: seashell;
+    top: 0;
+    width: 1100px;
+    height: 65px;
+    margin-left: 120px;
+    border-bottom: 1px solid;
+    position: fixed;
+    z-index: 2;
+}
+
+.text {
+    font-size: 30px;
+    text-align: justify;
+    border: 2px solid #bbc900;
+    padding: 40px 20px 40px 20px;
+    border-bottom: hidden;
+    width: 950px;
+    height: 750px;
+    margin: 100px 190px 80px 200px;
+}
+/*NEWS PORTAL STYLES END */
+
+
+/* FACE STYLES START */
+.wrapper {
+    background-color: #65e490;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    position: relative;
+
+    /* MARGIN FROM ANOTHER TASK */
+    margin-top: 200px;
+}
+
+.eye {
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 15%;
+}
+
+.eye.left {
+    left: 20%; 
+}
+
+.eye.right {
+    right: 20%;
+}
+
+.nose {
+    background-color: white;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mouth {
+    background-color: white;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    bottom: 24%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+/* FACE STYLES END */
+
+/* GREEN BOX STYLES START */
+.big-block {  
+    background-color: green;
+    width: 350px;
+    height: 220px;
+    border: 2px dashed red;
+    margin-bottom: 30px;
+    padding: 15px 10px 20px;
+}
+/* GREEN BOX STYLES END */
+
+/* SQUARES STYLES START */
+.pink-box {
+    background-color: #eb9891;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    z-index: 1;
+}
+.blue-box {
+    background-color: #7484e0;
+    width: 150px;
+    height: 150px;
+    margin-top: -65px;
+    margin-left: 85px;
+}
+.green-box {
+    background-color: #65e490;
+    width: 150px;
+    height: 150px;
+    margin-top: -65px;
+    margin-left: 170px;
+}
+/* SQUARES STYLES END */
